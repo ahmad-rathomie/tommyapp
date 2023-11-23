@@ -1,38 +1,95 @@
-.App {
+h1{
+  color: grey;
   text-align: center;
+  font-size: 50px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+  text-align: center;
+  font-size: 40px;
+  font-family: Agbalumo;
 }
+.container ol{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: inline;
+  position: relative;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button{
+  background-color: aqua;
+  color: black;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+   font-family: Agbalumo;
+}
+ol{
+  width: 60px;
+  position: relative;
+}
+.about{
+  float: right;
+}
+p{
+  text-align: center;
+  padding: 10px;
+  font-size: 40px;
+  font-family: Agbalumo;
   color: white;
+
+  
+}
+div{
+background-color: silver;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.shoes1{
+  display: inline;
+ justify-content: space-between; 
+ border: 15px;
+ padding: 3px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.logo{
+  display:block;
+margin-right:auto;
+margin-left:auto;
+text-align: center;
+border-radius: 40%;
+  
+}
+.shirt1{
+  display: inline;
+  justify-content: space-between; 
+  border: 15px;
+  padding: 3px;
+  margin-left: 90px ;
+  margin-right: 90px;
+  
+}
+.order{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+.deliver{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cont{
+  display: inline;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+
+  
+}
+body{
+  background-color: darkgrey;
 }
